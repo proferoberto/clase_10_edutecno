@@ -125,16 +125,31 @@
 #     puts "Esta es la iteracion #{i}"
 #     i = i + 1
 # end
-puts "Digita un valor"
-valor = gets.chomp
+puts "Ingreso familiar de emergencias"
+puts "Numero de integrantes"
+valor = gets.chomp.to_i
+monto = 0
 
 case valor
-when 'si'
-    puts "soy igual a si"
-when 'no'
-    puts "soy igual a no"
-when 'nose'
-    puts "soy igual a nose"
+when 1
+    monto = 177000
+when 2
+    monto = 287000
+when 3
+    monto = 400000
+when 4
+    monto = 500000
+when 5
+    monto = 546000
+when 6
+    monto = 620000
+when 7
+    monto = 691000
+when 8
+    monto = 759000
+when 9 
+    monto = 824000
 else
-    puts "El valor es el de por defecto"
+    monto = 887000
 end
+puts "El monto a recibir por IFE #{monto}"
