@@ -99,29 +99,42 @@
 #     puts "hola mundo"
 # end
 
-20.times do |i|
-    puts "Soy la repeticion #{i}"
-    puts "hola mundo"   
-end
+# 20.times do |i|
+#     puts "Soy la repeticion #{i}"
+#     puts "hola mundo"   
+# end
 
-i = 0
-loop  do
-    if i < 100
-        puts "Esta es la iteracion #{i}"
-        i = i + 1
-    else
-        break
-    end
-end
+# i = 0
+# loop  do
+#     if i < 100
+#         puts "Esta es la iteracion #{i}"
+#         i = i + 1
+#     else
+#         break
+#     end
+# end
 
 
-(0..20).each do |i|
-    puts "esta es la iteracion #{i}"
-end
+# (0..20).each do |i|
+#     puts "esta es la iteracion #{i}"
+# end
 
-i = 0 
-while i<10 do
-    puts "hola mundo"
-    puts "Esta es la iteracion #{i}"
-    i = i + 1
+# i = 0 
+# while i<10 do
+#     puts "hola mundo"
+#     puts "Esta es la iteracion #{i}"
+#     i = i + 1
+# end
+puts "Digita un valor"
+valor = gets.chomp
+
+case valor
+when 'si'
+    puts "soy igual a si"
+when 'no'
+    puts "soy igual a no"
+when 'nose'
+    puts "soy igual a nose"
+else
+    puts "El valor es el de por defecto"
 end
