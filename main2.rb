@@ -125,31 +125,127 @@
 #     puts "Esta es la iteracion #{i}"
 #     i = i + 1
 # end
-puts "Ingreso familiar de emergencias"
-puts "Numero de integrantes"
-valor = gets.chomp.to_i
-monto = 0
 
-case valor
-when 1
-    monto = 177000
-when 2
-    monto = 287000
-when 3
-    monto = 400000
-when 4
-    monto = 500000
-when 5
-    monto = 546000
-when 6
-    monto = 620000
-when 7
-    monto = 691000
-when 8
-    monto = 759000
-when 9 
-    monto = 824000
-else
-    monto = 887000
+
+
+# puts "Ingreso familiar de emergencias"
+# puts "Numero de integrantes"
+# valor = gets.chomp.to_i
+# monto = 0
+
+# case valor
+# when 1
+#     monto = 177000
+# when 2
+#     monto = 287000
+# when 3
+#     monto = 400000
+# when 4
+#     monto = 500000
+# when 5
+#     monto = 546000
+# when 6
+#     monto = 620000
+# when 7
+#     monto = 691000
+# when 8
+#     monto = 759000
+# when 9 
+#     monto = 824000
+# else
+#     monto = 887000
+# end
+# puts "El monto a recibir por IFE #{monto}"
+
+# def suma(n1, n2, n3)
+#     puts "Este es el numero 3 #{n3}"
+#     operacion = n1 + n2   
+#     operacion
+# end
+
+# def resta
+# end
+# def calculo_ifc(valor)
+#     monto = 0
+#     case valor
+#     when 1
+#         monto = 177000
+#     when 2
+#         monto = 287000
+#     when 3
+#         monto = 400000
+#     when 4
+#         monto = 500000
+#     when 5
+#         monto = 546000
+#     when 6
+#         monto = 620000
+#     when 7
+#         monto = 691000
+#     when 8
+#         monto = 759000
+#     when 9 
+#         monto = 824000
+#     else
+#         monto = 887000
+#     end
+#     monto
+# end
+
+# def ifc_con_inflacion(year, num_integrantes)
+#     # case year
+#     # when 2022
+#     #     inflacion = calculo_ifc(num_integrantes) * 1.05
+#     # when 2023
+#     #     inflacion = calculo_ifc(num_integrantes) * 1.1
+#     # when 2024
+#     #     inflacion = calculo_ifc(num_integrantes) * 1.15
+#     # when 2025
+#     #     inflacion = calculo_ifc(num_integrantes) * 1.20
+#     # else
+#     #     inflacion = calculo_ifc(num_integrantes) * 1.25
+#     # end
+#     # Cada year aumenta en un 5 %
+#     acum = 0
+#     for i in (2022..year)
+#         acum = acum + 0.05
+#     end
+#     inflacion = calculo_ifc(num_integrantes) * (1 + acum)
+# end
+# ============================================================
+# Main
+# puts "Ingresar un dato 1"
+# numero1 = gets.chomp.to_i
+# puts "Ingresar un dato 2"
+# numero2 = gets.chomp.to_i
+
+# puts "Ingrese numero 3"
+# numero3 = gets.chomp.to_i
+
+# resultado = suma(numero1, numero2, numero3)
+# puts "El resultado es #{resultado}"
+
+# puts "Ingresa la cantidad de integrantes"
+# dato = gets.chomp.to_i
+# puts "El calculo ifc es #{calculo_ifc(dato)}"
+# puts "Digita el year"
+# year = gets.chomp.to_i
+# puts "Numero de integrantes"
+# n_integrantes = gets.chomp.to_i
+# puts "El calculo de ifc para #{year} es #{ifc_con_inflacion(year, n_integrantes)}"
+
+
+
+
+
+def imprimir_arreglo(enfermeras)
+    for i in (0...enfermeras.size)
+        puts "El enfermero es #{enfermeras[i]}"
+    end
 end
-puts "El monto a recibir por IFE #{monto}"
+
+enfermeras = ["ximena", "judith", "roberto", "carol"]
+imprimir_arreglo(enfermeras)
+
+
+

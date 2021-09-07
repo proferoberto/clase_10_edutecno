@@ -35,3 +35,21 @@ float = El conjunto de valores decimales
 2) Primitivas, Condicional, bucles(iteradores)
 - condicionales si si entonces 
 - iteradores o bucles para mientras 
+
+3) Funciones: Es un tecnica que se implemento en la programacion para dividir o partir el problema en parte
+mas pequenas. Esto se diseno teniendo el cuenta el lema divide y venceras.
+Palabras de glosario
+-Procedimientos: Son conocidos como fragmentos de codigo que se ejecutan para desarrollar una funcionalidad del gran problema inicial
+Ademas nos sirven para reciclar funcionalidades para otros proyectos.
+    - Funciones
+    -Subrutinas 
+    -Metodos
+
+Parametros
+- parametros de entrada
+
+5) Arreglos y sus metodos (crear, como acceder y como operar sobre ellos)
+
+datos estructurados
+Las esctructura de datos, es un mecanismo en donde se puede almacenar varios datos a la vez
+Son estructuras de datos, las cuales se pueden acceder por un indice.
